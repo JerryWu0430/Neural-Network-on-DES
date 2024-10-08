@@ -1,7 +1,8 @@
 # README - Neural Networks in Cryptanalysis: Investigating DES Encryption
 ---
 ## Overview
-This repository contains the research paper "Investigating The Effectiveness of Neural Networks in Cryptanalysis" and its accompanying source code. The project explores the potential of using neural networks, specifically multilayer perceptrons, in the cryptanalysis of symmetric encryptions, focusing on the Data Encryption Standard (DES).
+
+- This repository contains the research paper "Investigating The Effectiveness of Neural Networks in Cryptanalysis" and its accompanying source code. The project explores the potential of using neural networks, specifically multilayer perceptrons, in the cryptanalysis of symmetric encryptions, focusing on the Data Encryption Standard (DES).
 ---
 ## Contents
 1. `Neural Networks in Cryptanalysis Investigation.pdf`: The full research paper detailing the investigation, methodology, and results.

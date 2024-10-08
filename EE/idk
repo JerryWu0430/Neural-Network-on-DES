@@ -1,0 +1,26 @@
+import random
+import time
+
+length = 41
+init = 20
+arr = ["_"]*length
+index = init-1
+step = 0
+
+arr[index]= "YOU"
+print(arr)
+
+while init > 0 and init < length:
+    arr[index] = "_"
+    coin = random.choice([-1,1])
+    init = init + coin
+    index = init
+    step = step + 1
+    try:
+        arr[init] = "YOU"
+        time.sleep(0.05)
+        print(arr)
+    except:
+        print("death :)")
+
+print(f"it took you: {step} coinflips to die congrats!!!!")
